@@ -1,0 +1,21 @@
+<svg width="420" height="116" viewBox="0 0 420 116" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Knutify logo</title>
+  <desc id="desc">The Knutify wordmark with a geometric K mark and tagline.</desc>
+  <defs>
+    <linearGradient id="blue" x1="22" y1="16" x2="76" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5FA8FF"/>
+      <stop offset="1" stop-color="#2F86F6"/>
+    </linearGradient>
+    <linearGradient id="gray" x1="48" y1="48" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8CDD2"/>
+      <stop offset="1" stop-color="#81878D"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="412" height="108" rx="22" fill="#FFFFFF"/>
+  <rect x="3" y="3" width="410" height="106" rx="21" stroke="#E1E5EA" stroke-width="2"/>
+  <rect x="30" y="26" width="16" height="62" rx="2" fill="url(#blue)"/>
+  <path d="M54 55H70L89 88H73L54 55Z" fill="url(#gray)"/>
+  <path d="M54 47L74 26H92L71 47H54Z" fill="url(#blue)"/>
+  <text x="118" y="63" fill="#2F2F2F" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="0">Knutify</text>
+  <text x="120" y="87" fill="#2F86F6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="2.4">SIMPLE TOOLS. STRONG RESULTS.</text>
+</svg>

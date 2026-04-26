@@ -1,0 +1,29 @@
+<svg width="96" height="72" viewBox="0 0 96 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Streamline Works mark</title>
+  <desc id="desc">A streamlined S mark with speed lines.</desc>
+  <defs>
+    <linearGradient id="blue" x1="30" y1="6" x2="84" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#174F91"/>
+      <stop offset="1" stop-color="#1FA0EF"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="42" y1="39" x2="86" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3D4549"/>
+      <stop offset="1" stop-color="#171B1D"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="96" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1F3448" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M6 28H39" stroke="#174F91" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M2 36H43" stroke="#1FA0EF" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M8 44H49" stroke="#20272B" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M50 7H91L81 20H53C45 20 40 25 39 33L37 43H15L20 23C22 12 33 7 50 7Z" fill="url(#blue)"/>
+    <path d="M37 31H68C85 31 94 41 91 54C89 66 78 70 63 70H23L33 57H64C70 57 74 55 75 50C75 46 72 44 66 44H34L37 31Z" fill="url(#dark)"/>
+    <path d="M49 20H82" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <path d="M40 39H66C83 39 85 63 63 63H32" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <path d="M6 28H39" stroke="#174F91" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M2 36H43" stroke="#1FA0EF" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M8 44H49" stroke="#20272B" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+</svg>

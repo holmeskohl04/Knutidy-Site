@@ -3,421 +3,1003 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Knutify | Field Operations Systems</title>
+    <title>Knutify | Websites, Custom Software &amp; Technology Development</title>
     <meta
       name="description"
-      content="Practical internal tools for field operations companies that need to track crews, jobs, equipment, inspections, fuel logs, paperwork, and daily updates."
+      content="Knutify is a Canadian technology company building tailored websites, custom software, mobile and desktop apps, AI and automation, with ongoing support."
     >
+    <meta name="theme-color" content="#0d1014">
+    <link rel="canonical" href="https://knutify.ca/">
     <link rel="icon" href="assets/knutify-mark.svg" type="image/svg+xml">
-    <meta property="og:title" content="Knutify | Field Operations Systems">
-    <meta property="og:description" content="Practical internal tools for field operations companies that need to track crews, jobs, equipment, inspections, fuel logs, paperwork, and daily updates.">
+    <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta property="og:site_name" content="Knutify">
+    <meta property="og:locale" content="en_CA">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://knutify.ca/">
+    <meta property="og:title" content="Knutify | Technology Built Around Your Vision">
+    <meta property="og:description" content="Websites, custom software, and AI and automation from a Canadian technology studio, from planning and design through launch and ongoing support.">
+    <meta property="og:image" content="https://knutify.ca/assets/og-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Knutify: Technology Built Around Your Vision. Websites, custom software, and AI and automation. Built in Canada.">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Knutify | Technology Built Around Your Vision">
+    <meta name="twitter:description" content="Websites, custom software, and AI and automation from a Canadian technology studio.">
+    <meta name="twitter:image" content="https://knutify.ca/assets/og-image.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preload" href="assets/systems-hero.png" as="image">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Instrument+Serif:ital@1&family=Inter+Tight:wght@500;600&family=Inter:wght@400..700&family=JetBrains+Mono:wght@500&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <a class="skip-link" href="#top">Skip to content</a>
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Knutify home">
-        <img class="brand-mark" src="assets/knutify-mark.svg" alt="" aria-hidden="true">
-        <span class="brand-text">
-          <span class="brand-name">Knutify</span>
-          <span class="brand-subname">Simple tools. Strong results.</span>
-        </span>
+        <img class="brand-mark" src="assets/knutify-mark-plain.svg" width="54" height="56" alt="" aria-hidden="true">
+        <span class="brand-name">Knutify</span>
       </a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <button class="menu-button" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav" data-menu-button>
         <span></span>
         <span></span>
         <span></span>
       </button>
-      <nav id="site-nav" class="site-nav" data-nav>
-        <a href="#problems">Problems</a>
-        <a href="#services">Services</a>
-        <a href="#process">Process</a>
-        <a href="#demos">Demos</a>
-        <a href="#work">Systems</a>
-        <a href="#contact">Contact</a>
+      <nav id="site-nav" class="site-nav" aria-label="Main" data-nav>
+        <a href="#build">What we build</a>
+        <a href="#showcase">Concept Lab</a>
+        <a href="#process">How we work</a>
+        <a class="button primary small nav-cta" href="#contact">Start a project</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <img class="hero-image" src="assets/systems-hero.png" alt="Desk with laptop and tablet showing business operations dashboards">
-        <div class="hero-overlay"></div>
+    <main id="top" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-title">
         <div class="hero-content">
-          <p class="eyebrow">Field crew apps, tracking, and daily operations systems</p>
-          <h1>Simple systems for field crews that track jobs, equipment, and daily work in one place.</h1>
+          <p class="eyebrow">Websites &amp; software &middot; Built in Canada</p>
+          <h1 id="hero-title">
+            <span>Technology</span>
+            <span>Built Around</span>
+            <em>Your Vision<span class="hero-dot">.</span></em>
+          </h1>
           <p class="hero-copy">
-            Knutify builds practical internal tools for companies that still rely on paper,
-            spreadsheets, texts, or disconnected apps. We help you track your crews, equipment,
-            inspections, fuel, and daily updates in one system built around how your operation actually runs.
+            We design beautiful websites and engineer custom software, shaped around your goals
+            and the way your business works.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#contact">Start a project</a>
-            <a class="button secondary" href="#work">See field systems</a>
-          </div>
-          <div class="hero-proof" aria-label="Common project outcomes">
-            <span>Field crew apps</span>
-            <span>Equipment tracking</span>
-            <span>Live dashboards</span>
+            <a class="button secondary" href="#showcase">Explore the showcase</a>
           </div>
         </div>
+
+        <figure class="hero-figure">
+          <div class="hero-visual" aria-hidden="true" data-hero-visual>
+            <div class="hv-browser">
+              <div class="hv-bar">
+                <span class="hv-dots"><i></i><i></i><i></i></span>
+                <span class="hv-url"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>northmark.example</span>
+              </div>
+              <div class="hv-site">
+                <div class="hv-nav" data-hv-target="nav">
+                  <span class="hv-logo"><b>N</b>Northmark</span>
+                  <span class="hv-links"><i>Services</i><i>Approach</i><i>Insights</i><i>Contact</i></span>
+                  <span class="hv-nav-cta">Book a consultation</span>
+                </div>
+                <div class="hv-main">
+                  <div class="hv-copy">
+                    <span class="hv-kicker">Strategy &middot; Finance &middot; Operations</span>
+                    <span class="hv-title" data-hv-target="headline">Clear advice for <em>confident</em> decisions.</span>
+                    <span class="hv-lede">Practical strategy and financial guidance for growing businesses.</span>
+                    <span class="hv-btns"><span class="hv-btn">Book a consultation</span><span class="hv-btn hv-btn-line">Explore services</span></span>
+                  </div>
+                  <div class="hv-card" data-hv-target="card">
+                    <span class="hv-card-title">Book a consultation</span>
+                    <span class="hv-card-sub">30 min &middot; Video or in person</span>
+                    <span class="hv-days"><i><small>Mon</small>10</i><i class="is-on"><small>Tue</small>11</i><i><small>Wed</small>12</i><i><small>Thu</small>13</i><i><small>Fri</small>14</i></span>
+                    <span class="hv-slots"><i>9:00</i><i class="is-on">10:30</i><i>1:00</i><i>2:30</i><i>3:45</i><i>4:30</i></span>
+                    <span class="hv-confirm">Confirm Tue 11, 10:30</span>
+                  </div>
+                </div>
+                <div class="hv-strip">
+                  <span><b>01</b>Strategy &amp; planning</span>
+                  <span><b>02</b>Financial advisory</span>
+                  <span><b>03</b>Operations &amp; growth</span>
+                  <span><b>04</b>Risk &amp; compliance</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hv-selection" data-hv-selection>
+              <span class="hv-tag"><b data-hv-label>BookingCard</b><span data-hv-size></span></span>
+              <i></i><i></i><i></i><i></i>
+            </div>
+
+            <div class="hv-editor">
+              <div class="hv-tabs"><span class="is-active">Hero.tsx</span><span>BookingCard.tsx</span><span>theme.css</span></div>
+              <div class="hv-code">
+                <span class="hv-line hv-outer"><span class="hv-ln">1</span><code><span class="k">export function</span> <span class="c">Hero</span>() {</code></span>
+                <span class="hv-line hv-outer"><span class="hv-ln">2</span><code>  <span class="k">return</span> (</code></span>
+                <span class="hv-line"><span class="hv-ln">3</span><code>    <span class="c">&lt;Page</span> <span class="a">theme</span>=<span class="s">"ivory"</span><span class="c">&gt;</span></code></span>
+                <span class="hv-block" data-hv-code="nav">
+                  <span class="hv-line"><span class="hv-ln">4</span><code>      <span class="c">&lt;Nav</span> <span class="a">cta</span>=<span class="s">"Book a consultation"</span> <span class="c">/&gt;</span><i class="hv-caret"></i></code></span>
+                </span>
+                <span class="hv-block" data-hv-code="headline">
+                  <span class="hv-line"><span class="hv-ln">5</span><code>      <span class="c">&lt;Headline&gt;</span></code></span>
+                  <span class="hv-line"><span class="hv-ln">6</span><code>        Clear advice for <span class="c">&lt;em&gt;</span>confident<span class="c">&lt;/em&gt;</span></code></span>
+                  <span class="hv-line"><span class="hv-ln">7</span><code>        decisions.</code></span>
+                  <span class="hv-line"><span class="hv-ln">8</span><code>      <span class="c">&lt;/Headline&gt;</span><i class="hv-caret"></i></code></span>
+                </span>
+                <span class="hv-block" data-hv-code="card">
+                  <span class="hv-line"><span class="hv-ln">9</span><code>      <span class="c">&lt;BookingCard</span></code></span>
+                  <span class="hv-line"><span class="hv-ln">10</span><code>        <span class="a">length</span>={<span class="s">30</span>}</code></span>
+                  <span class="hv-line"><span class="hv-ln">11</span><code>        <span class="a">slots</span>={week.open}</code></span>
+                  <span class="hv-line"><span class="hv-ln">12</span><code>        <span class="a">onConfirm</span>={book}</code></span>
+                  <span class="hv-line"><span class="hv-ln">13</span><code>      <span class="c">/&gt;</span><i class="hv-caret"></i></code></span>
+                </span>
+                <span class="hv-line"><span class="hv-ln">14</span><code>    <span class="c">&lt;/Page&gt;</span></code></span>
+                <span class="hv-line hv-outer"><span class="hv-ln">15</span><code>  );</code></span>
+                <span class="hv-line hv-outer"><span class="hv-ln">16</span><code>}</code></span>
+              </div>
+              <div class="hv-status"><span><i></i>main</span><span>TSX &middot; UTF-8</span></div>
+            </div>
+          </div>
+          <figcaption class="hero-caption">Fictional concept: Northmark Advisory, with the component code behind it.</figcaption>
+        </figure>
       </section>
 
-      <section class="section intro">
-        <div class="section-heading">
-          <p class="eyebrow">For field operations companies</p>
-          <h2>Turn messy daily operations into one simple system.</h2>
-        </div>
-        <div class="intro-grid">
-          <p class="field-note">Built from real field experience - not generic software ideas.</p>
-          <p>
-            If your team is using texts, paper forms, whiteboards, spreadsheets, or memory to run
-            the day, things get missed. We build systems that match your actual workflow so managers
-            can see what is happening, crews know what to fill out, and records stay organized.
+      <section id="build" class="section build" aria-labelledby="build-title">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">What we build</p>
+            <h2 id="build-title">Technology with a <em>clear purpose.</em></h2>
+          </div>
+          <p class="section-lede">
+            Websites, custom software, and automation from one partner, covering planning, design,
+            development, launch, and ongoing support. The goal is never technology for its own sake.
+            It's more customers, smoother operations, and tools your team actually wants to use.
           </p>
-          <p>
-            The goal is not complicated software. The goal is fewer mistakes, faster updates,
-            cleaner records, and a tool your team will actually use.
+        </div>
+
+        <div class="capabilities">
+          <article class="capability" aria-labelledby="cap-websites">
+            <div class="capability-copy">
+              <h3 id="cap-websites">Websites</h3>
+              <p class="capability-problem">When a site looks dated, loads slowly, or struggles on phones, it costs you customers before they ever reach out.</p>
+              <p>Professional, fast, mobile-friendly websites that represent your brand and turn visitors into enquiries and customers.</p>
+              <ul class="capability-list">
+                <li>Custom design aligned with your brand</li>
+                <li>Responsive layouts for every screen size</li>
+                <li>Search-friendly structure and performance</li>
+                <li>Contact forms, booking, and integrations</li>
+              </ul>
+              <div class="capability-links">
+                <a class="link" href="#contact">Plan a website</a>
+                <a class="link" href="#showcase" data-lab-open="websites">See website concepts</a>
+              </div>
+            </div>
+            <div class="capability-art art-web" aria-hidden="true">
+              <div class="aw-devices">
+                <div class="aw-device aw-desktop">
+                  <div class="aw-shell">
+                    <div class="aw-screen"><span class="aw-nav"></span><span class="aw-head"></span><span class="aw-line"></span><span class="aw-short"></span><span class="aw-cta"></span><span class="aw-media"></span></div>
+                  </div>
+                  <span class="aw-size">1280</span>
+                </div>
+                <div class="aw-device aw-tablet">
+                  <div class="aw-shell">
+                    <div class="aw-screen"><span class="aw-nav"></span><span class="aw-head"></span><span class="aw-line"></span><span class="aw-short"></span><span class="aw-cta"></span><span class="aw-media"></span></div>
+                  </div>
+                  <span class="aw-size">820</span>
+                </div>
+                <div class="aw-device aw-phone">
+                  <div class="aw-shell">
+                    <div class="aw-screen"><span class="aw-nav"></span><span class="aw-head"></span><span class="aw-line"></span><span class="aw-short"></span><span class="aw-cta"></span><span class="aw-media"></span></div>
+                  </div>
+                  <span class="aw-size">390</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="capability" aria-labelledby="cap-software">
+            <div class="capability-copy">
+              <h3 id="cap-software">Custom Software</h3>
+              <p class="capability-problem">When off-the-shelf tools don't fit, your team works around them, and information ends up scattered across apps and spreadsheets.</p>
+              <p>Software built specifically for your workflows, from internal tools and dashboards to client portals and business platforms.</p>
+              <ul class="capability-list">
+                <li>Internal tools shaped around your process</li>
+                <li>Dashboards, reporting, and admin panels</li>
+                <li>Client and staff portals</li>
+                <li>Integrations with the tools you already use</li>
+              </ul>
+              <div class="capability-links">
+                <a class="link" href="#contact">Scope custom software</a>
+                <a class="link" href="#showcase" data-lab-open="software">Try the software concept</a>
+              </div>
+            </div>
+            <div class="capability-art art-soft" aria-hidden="true">
+              <div class="as-inner">
+                <div class="as-schema">
+                  <div class="as-table">
+                    <p class="as-name">clients</p>
+                    <ul><li><span>id</span><em>uuid</em></li><li><span>name</span><em>text</em></li><li><span>email</span><em>text</em></li></ul>
+                  </div>
+                  <div class="as-table is-focus">
+                    <p class="as-name">jobs</p>
+                    <ul><li><span>client_id</span><em>fk</em></li><li><span>status</span><em>enum</em></li><li><span>due_on</span><em>date</em></li></ul>
+                  </div>
+                  <div class="as-table">
+                    <p class="as-name">invoices</p>
+                    <ul><li><span>job_id</span><em>fk</em></li><li><span>total</span><em>money</em></li><li><span>paid_at</span><em>time</em></li></ul>
+                  </div>
+                </div>
+                <div class="as-request"><span class="as-method">GET</span><code>/api/jobs?status=scheduled</code><span class="as-status">200 OK</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="capability" aria-labelledby="cap-ai">
+            <div class="capability-copy">
+              <h3 id="cap-ai">AI &amp; Automation</h3>
+              <p class="capability-problem">When hours go to data entry, copy-paste, and follow-ups, and you know AI could help but not where it fits.</p>
+              <p>AI integrations and automated workflows that cut repetitive work, connect your systems, and help your team move faster, introduced safely and only where they genuinely help.</p>
+              <ul class="capability-list">
+                <li>Automated workflows and follow-ups</li>
+                <li>Connected systems that share data</li>
+                <li>Reports that keep themselves up to date</li>
+                <li>AI assistants integrated safely</li>
+              </ul>
+              <div class="capability-links">
+                <a class="link" href="#contact">Discuss automation</a>
+                <a class="link" href="#showcase" data-lab-open="ai">Run the workflow demo</a>
+              </div>
+            </div>
+            <div class="capability-art art-ai" aria-hidden="true">
+              <div class="aa-flow-wrap">
+                <ol class="aa-flow">
+                  <li><span class="aa-tag">Trigger</span><b>New enquiry received</b><em>Website form</em></li>
+                  <li class="is-ai"><span class="aa-tag">AI</span><b>Classify the request</b><em>Service &middot; urgency &middot; details</em></li>
+                  <li><span class="aa-tag">Action</span><b>Create the job, draft a quote</b><em>Saved to your system</em></li>
+                  <li><span class="aa-tag">Notify</span><b>Alert the right person</b><em>Email or team chat</em></li>
+                </ol>
+                <span class="aa-pulse"></span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="capability-secondary">
+          <p class="capability-secondary-label">Also from the studio</p>
+          <article class="capability-minor">
+            <h3>Mobile &amp; Desktop Apps</h3>
+            <p>Applications for phones, tablets, and computers that give your customers and team a smooth experience wherever they work.</p>
+            <a class="link" href="#contact">Plan an app</a>
+          </article>
+          <article class="capability-minor">
+            <h3>Support</h3>
+            <p>Ongoing maintenance, updates, fixes, and improvements so your website, software, or app keeps running well after launch.</p>
+            <a class="link" href="#contact">Ask about support</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="showcase" class="section showcase" data-showcase aria-labelledby="lab-title">
+        <div class="section-heading centered">
+          <p class="eyebrow">Concept Lab</p>
+          <h2 id="lab-title">Explore what we can <em>design and build.</em></h2>
+          <p class="section-lede">
+            Fictional concepts created by Knutify to demonstrate our work. Every business name, detail,
+            menu, and price is invented, and none of these are client projects.
           </p>
         </div>
-      </section>
 
-      <section id="problems" class="section problems">
-        <div class="section-heading">
-          <p class="eyebrow">Built for real operations</p>
-          <h2>Common problems we help fix.</h2>
-        </div>
-        <div class="problem-grid">
-          <article class="problem-card">
-            <span>01</span>
-            <h3>Messy scheduling</h3>
-            <p>Give employees and managers one clear place to view, update, and manage schedules.</p>
-          </article>
-          <article class="problem-card">
-            <span>02</span>
-            <h3>Paper inspections</h3>
-            <p>Replace paper pre-trips, checklists, and daily forms with mobile-friendly submissions.</p>
-          </article>
-          <article class="problem-card">
-            <span>03</span>
-            <h3>Equipment visibility</h3>
-            <p>Track trucks, side-by-sides, tools, status, notes, and service-related updates.</p>
-          </article>
-          <article class="problem-card">
-            <span>04</span>
-            <h3>Fuel and material logs</h3>
-            <p>Keep cleaner records of fuel, herbicide, materials, or other usage across units.</p>
-          </article>
-          <article class="problem-card">
-            <span>05</span>
-            <h3>No live updates</h3>
-            <p>Create dashboards that show managers what is happening without chasing texts.</p>
-          </article>
-          <article class="problem-card">
-            <span>06</span>
-            <h3>Scattered records</h3>
-            <p>Keep submissions, timestamps, notes, and reports organized in one place.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="services" class="section services">
-        <div class="section-heading">
-          <p class="eyebrow">What we build</p>
-          <h2>Field systems shaped around your daily operation.</h2>
-        </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="card-icon">01</span>
-            <h3>Field crew apps</h3>
-            <p>Mobile-friendly tools for daily work, job updates, forms, inspections, checklists, and crew communication.</p>
-            <a href="#contact">Plan a crew app</a>
-          </article>
-          <article class="service-card">
-            <span class="card-icon">02</span>
-            <h3>Equipment and asset tracking</h3>
-            <p>Track trucks, equipment, fuel, materials, service notes, status updates, and usage history.</p>
-            <a href="#contact">Track equipment</a>
-          </article>
-          <article class="service-card">
-            <span class="card-icon">03</span>
-            <h3>Dashboards and reporting</h3>
-            <p>Live views for owners, managers, and office staff so they can see the information that matters without digging through spreadsheets.</p>
-            <a href="#contact">Plan a dashboard</a>
-          </article>
-          <article class="service-card">
-            <span class="card-icon">04</span>
-            <h3>Workflow automation</h3>
-            <p>Automations that move data, send alerts, create records, reduce repeat admin work, and keep the right people informed.</p>
-            <a href="#contact">Map an automation</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="process" class="section process">
-        <div class="section-heading">
-          <p class="eyebrow">How projects work</p>
-          <h2>Start with your workflow, then build the right system around it.</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <span>1</span>
-            <div>
-              <h3>Map the real process</h3>
-              <p>We identify who does what in your company, where work slows down, and what information needs to be captured.</p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span>2</span>
-            <div>
-              <h3>Build the first useful version</h3>
-              <p>The first release focuses on your core workflow, not a generic feature list that delays the value.</p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span>3</span>
-            <div>
-              <h3>Test with the team</h3>
-              <p>Your real users try it, rough edges get fixed, and the system gets shaped around daily use.</p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span>4</span>
-            <div>
-              <h3>Support and improve</h3>
-              <p>Once the system is running, we can add reports, admin tools, integrations, and new workflows specific to your company.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="demos" class="section demos">
-        <div class="section-heading">
-          <p class="eyebrow">Demo reel</p>
-          <h2>A quick look at the kind of tools your crew could use every day.</h2>
-        </div>
-        <div class="demo-frame" aria-label="Rolling demo previews">
-          <div class="demo-track">
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Daily Crew Board</h3>
-              <div class="demo-list">
-                <p><strong>North lease cleanup</strong><small>Assigned to Crew 2</small></p>
-                <p><strong>Shop supply run</strong><small>Waiting on update</small></p>
-                <p><strong>Fence repair</strong><small>Photos submitted</small></p>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Equipment Status</h3>
-              <div class="demo-meter">
-                <span style="width: 82%"></span>
-              </div>
-              <div class="demo-list">
-                <p><strong>Truck 14</strong><small>Active today</small></p>
-                <p><strong>SXS 03</strong><small>Service note added</small></p>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Pre-Trip Form</h3>
-              <div class="demo-checks">
-                <span>Lights checked</span>
-                <span>Tires checked</span>
-                <span>Fluids checked</span>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Fuel Log</h3>
-              <div class="demo-list">
-                <p><strong>Unit 22</strong><small>76 L submitted</small></p>
-                <p><strong>Truck 09</strong><small>42 L submitted</small></p>
-                <p><strong>Generator</strong><small>18 L submitted</small></p>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Manager Dashboard</h3>
-              <div class="demo-stats">
-                <span><strong>18</strong> submitted</span>
-                <span><strong>4</strong> open</span>
-                <span><strong>2</strong> flagged</span>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Daily Crew Board</h3>
-              <div class="demo-list">
-                <p><strong>North lease cleanup</strong><small>Assigned to Crew 2</small></p>
-                <p><strong>Shop supply run</strong><small>Waiting on update</small></p>
-                <p><strong>Fence repair</strong><small>Photos submitted</small></p>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Equipment Status</h3>
-              <div class="demo-meter">
-                <span style="width: 82%"></span>
-              </div>
-              <div class="demo-list">
-                <p><strong>Truck 14</strong><small>Active today</small></p>
-                <p><strong>SXS 03</strong><small>Service note added</small></p>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Pre-Trip Form</h3>
-              <div class="demo-checks">
-                <span>Lights checked</span>
-                <span>Tires checked</span>
-                <span>Fluids checked</span>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Fuel Log</h3>
-              <div class="demo-list">
-                <p><strong>Unit 22</strong><small>76 L submitted</small></p>
-                <p><strong>Truck 09</strong><small>42 L submitted</small></p>
-                <p><strong>Generator</strong><small>18 L submitted</small></p>
-              </div>
-            </article>
-            <article class="demo-card">
-              <div class="demo-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>Manager Dashboard</h3>
-              <div class="demo-stats">
-                <span><strong>18</strong> submitted</span>
-                <span><strong>4</strong> open</span>
-                <span><strong>2</strong> flagged</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="section systems">
-        <div class="section-heading">
-          <p class="eyebrow">Example systems</p>
-          <h2>Systems built around real field operations.</h2>
-        </div>
-        <div class="systems-layout">
-          <div class="system-list">
-            <button class="system-row is-active" type="button" data-system="field">
-              <span>Field operations app</span>
-              <small>Jobs, crews, checklists, updates</small>
+        <div class="lab-categories">
+          <div class="lab-tabs" role="tablist" aria-label="Concept Lab categories" data-lab-tabs>
+            <button class="lab-category" type="button" role="tab" id="lab-tab-websites" aria-selected="true" aria-controls="lab-panel-websites">
+              <span class="lab-category-head"><span class="lab-category-name">Websites</span><span class="lab-category-status">3 concepts</span></span>
+              <span class="lab-category-desc">Brand sites with quotes, menus, and booking</span>
             </button>
-            <button class="system-row" type="button" data-system="equipment">
-              <span>Equipment tracking system</span>
-              <small>Trucks, SXS, tools, status, logs</small>
+            <button class="lab-category" type="button" role="tab" id="lab-tab-software" aria-selected="false" aria-controls="lab-panel-software" tabindex="-1">
+              <span class="lab-category-head"><span class="lab-category-name">Software</span><span class="lab-category-status">1 interactive concept</span></span>
+              <span class="lab-category-desc">Internal tools, dashboards, and portals</span>
             </button>
-            <button class="system-row" type="button" data-system="fuel">
-              <span>Fuel and material log</span>
-              <small>Fuel, herbicide, usage, reporting</small>
-            </button>
-            <button class="system-row" type="button" data-system="inspection">
-              <span>Pre-trip and inspection system</span>
-              <small>Daily forms, safety checks, records</small>
+            <button class="lab-category" type="button" role="tab" id="lab-tab-ai" aria-selected="false" aria-controls="lab-panel-ai" tabindex="-1">
+              <span class="lab-category-head"><span class="lab-category-name">AI &amp; Automation</span><span class="lab-category-status">1 simulation</span></span>
+              <span class="lab-category-desc">Workflows, integrations, and assistants</span>
             </button>
           </div>
-          <div class="system-preview" data-system-preview>
-            <p class="preview-label">Selected system</p>
-            <h3>Field operations app</h3>
-            <p>Give your crew one place to see assigned work, complete checklists, submit updates, and send office-ready records without paper or scattered texts.</p>
-            <ul>
-              <li>Mobile-first daily workflow</li>
-              <li>Manager dashboard for submitted work</li>
-              <li>Automatic timestamps and cleaner records</li>
-            </ul>
+        </div>
+
+        <div class="lab-panel" id="lab-panel-websites" role="tabpanel" aria-labelledby="lab-tab-websites">
+          <div class="showcase-shell">
+            <div class="showcase-side">
+              <div class="concept-tabs" role="tablist" aria-label="Website design concepts" data-concept-tabs>
+                <button class="concept-tab" type="button" role="tab" id="concept-tab-trades" aria-selected="true" aria-controls="showcase-panel" data-concept="trades">
+                  <span class="concept-tab-text">
+                    <span class="concept-tab-name">Trades &amp; Construction</span>
+                    <span class="concept-tab-brand">Ironridge Builders</span>
+                  </span>
+                  <span class="concept-swatches" aria-hidden="true"><i style="--swatch: #121212"></i><i style="--swatch: #f5b301"></i><i style="--swatch: #f2efe8"></i></span>
+                </button>
+                <button class="concept-tab" type="button" role="tab" id="concept-tab-restaurant" aria-selected="false" aria-controls="showcase-panel" tabindex="-1" data-concept="restaurant">
+                  <span class="concept-tab-text">
+                    <span class="concept-tab-name">Restaurant &amp; Hospitality</span>
+                    <span class="concept-tab-brand">Laurel &amp; Ember</span>
+                  </span>
+                  <span class="concept-swatches" aria-hidden="true"><i style="--swatch: #17110f"></i><i style="--swatch: #c8a36a"></i><i style="--swatch: #7a2a35"></i></span>
+                </button>
+                <button class="concept-tab" type="button" role="tab" id="concept-tab-professional" aria-selected="false" aria-controls="showcase-panel" tabindex="-1" data-concept="professional">
+                  <span class="concept-tab-text">
+                    <span class="concept-tab-name">Professional Services</span>
+                    <span class="concept-tab-brand">Northmark Advisory</span>
+                  </span>
+                  <span class="concept-swatches" aria-hidden="true"><i style="--swatch: #132034"></i><i style="--swatch: #f7f4ee"></i><i style="--swatch: #1f5247"></i></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="showcase-panel" id="showcase-panel" role="tabpanel" aria-labelledby="concept-tab-trades">
+              <div class="showcase-toolbar">
+                <p class="concept-badge"><span aria-hidden="true"></span>Fictional design concept</p>
+                <div class="device-toggle" role="group" aria-label="Preview size" data-device-toggle>
+                  <button class="device-button" type="button" aria-pressed="true" data-device="desktop">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+                    <span>Desktop</span>
+                  </button>
+                  <button class="device-button" type="button" aria-pressed="false" data-device="tablet">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M11 18h2"/></svg>
+                    <span>Tablet</span>
+                  </button>
+                  <button class="device-button" type="button" aria-pressed="false" data-device="mobile">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></svg>
+                    <span>Mobile</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="showcase-stage" data-stage>
+                <div class="device" data-device-frame data-device="desktop">
+                  <div class="device-bar">
+                    <span class="device-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                    <span class="device-url">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+                      <span data-device-url>ironridge.example</span>
+                    </span>
+                  </div>
+                  <div class="device-screen" data-device-screen>
+                    <div class="site-viewport" tabindex="0" role="region" aria-label="Scrollable preview of the Ironridge Builders concept" data-site-viewport>
+
+                      <div class="mock mock-trades" data-concept-site="trades" aria-hidden="true">
+                        <div class="tr-topbar">
+                          <span>Free on-site estimates</span>
+                          <span>Mon&ndash;Sat &middot; 7:00am&ndash;6:00pm</span>
+                          <span class="tr-phone">(555) 014-2290</span>
+                        </div>
+                        <div class="tr-nav">
+                          <div class="tr-logo">
+                            <svg viewBox="0 0 32 32"><path d="M16 2 29 9.5v13L16 30 3 22.5v-13z" fill="#f5b301"/><path d="M10 21v-9l6-4 6 4v9" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/><path d="M14 21v-5h4v5z" fill="#111"/></svg>
+                            <span>Ironridge<b>Builders</b></span>
+                          </div>
+                          <div class="tr-links"><span>Services</span><span>Process</span><span>About</span><span>Contact</span></div>
+                          <span class="tr-btn tr-btn-solid tr-nav-cta">Request a quote</span>
+                          <span class="mock-burger"><i></i><i></i><i></i></span>
+                        </div>
+                        <div class="tr-hero">
+                          <svg class="tr-hero-art" viewBox="0 0 600 420" fill="none">
+                            <g stroke="#f5b301" stroke-width="3">
+                              <path d="M430 420V60M450 420V60"/>
+                              <path d="M430 100l20 30M450 130l-20 30M430 160l20 30M450 190l-20 30M430 220l20 30M450 250l-20 30M430 280l20 30M450 310l-20 30M430 340l20 30M450 370l-20 30"/>
+                              <path d="M300 60h300M300 78h300M440 18 300 60M440 18l160 42"/>
+                              <path d="M340 78v120" stroke-width="2"/>
+                              <path d="M328 198h24v16h-24z"/>
+                            </g>
+                            <g stroke="#ffffff" stroke-opacity="0.5" stroke-width="2">
+                              <path d="M40 420V220M140 420V220M240 420V220M340 420V260"/>
+                              <path d="M40 220h200M40 290h300M40 360h300M240 260h100"/>
+                              <path d="M40 290l100-70M140 290l100-70M40 360l100-70M140 360l100-70M240 360l100-70"/>
+                            </g>
+                          </svg>
+                          <div class="tr-hero-copy">
+                            <p class="tr-kicker">General contracting &middot; Renovations &middot; Commercial</p>
+                            <div class="tr-title">Built right.<br><em>Built to last.</em></div>
+                            <p class="tr-lede">From foundations to final finishes, Ironridge delivers residential and commercial construction with clear quotes, tidy job sites, and work that holds up.</p>
+                            <div class="tr-actions">
+                              <span class="tr-btn tr-btn-solid">Request a free quote &rarr;</span>
+                              <span class="tr-btn tr-btn-ghost">View services</span>
+                            </div>
+                            <div class="tr-badges"><span>Licensed &amp; insured</span><span>Written estimates</span><span>Warranty-backed work</span></div>
+                          </div>
+                          <div class="tr-quote">
+                            <div class="tr-quote-title">Request a quote</div>
+                            <p>Tell us about your project and we'll book an on-site estimate.</p>
+                            <div class="tr-field"><small>Full name</small><span>Jordan Smith</span></div>
+                            <div class="tr-row">
+                              <div class="tr-field"><small>Phone</small><span>(555) 014-7731</span></div>
+                              <div class="tr-field"><small>Timeline</small><span class="is-select">Within 3 months</span></div>
+                            </div>
+                            <div class="tr-field"><small>Project type</small><span class="is-select">Home renovation</span></div>
+                            <span class="tr-btn tr-btn-solid tr-btn-block">Send request</span>
+                          </div>
+                        </div>
+                        <div class="tr-stripe"></div>
+                        <div class="tr-section">
+                          <div class="tr-section-head">
+                            <div>
+                              <p class="tr-kicker">What we do</p>
+                              <div class="tr-h2">Construction services</div>
+                            </div>
+                            <p>One accountable team from planning and permits to the final walkthrough.</p>
+                          </div>
+                          <div class="tr-services">
+                            <div class="tr-service">
+                              <span class="tr-icon"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg></span>
+                              <div class="tr-service-title">Residential renovations</div>
+                              <p>Kitchens, basements, additions, and full-home updates.</p>
+                              <span class="tr-more">Learn more</span>
+                            </div>
+                            <div class="tr-service">
+                              <span class="tr-icon"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2"/></svg></span>
+                              <div class="tr-service-title">Commercial builds</div>
+                              <p>Tenant improvements, retail fit-outs, and light commercial.</p>
+                              <span class="tr-more">Learn more</span>
+                            </div>
+                            <div class="tr-service">
+                              <span class="tr-icon"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5zM3 13l9 5 9-5"/></svg></span>
+                              <div class="tr-service-title">Concrete &amp; foundations</div>
+                              <p>Footings, slabs, driveways, and structural repairs.</p>
+                              <span class="tr-more">Learn more</span>
+                            </div>
+                            <div class="tr-service">
+                              <span class="tr-icon"><svg viewBox="0 0 24 24"><path d="M2 12 12 4l10 8M6 10v10h12V10"/><path d="M9 14h6"/></svg></span>
+                              <div class="tr-service-title">Roofing &amp; exteriors</div>
+                              <p>Roofing, siding, windows, decks, and weatherproofing.</p>
+                              <span class="tr-more">Learn more</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tr-process">
+                          <div class="tr-section-head">
+                            <div>
+                              <p class="tr-kicker">How it works</p>
+                              <div class="tr-h2">From quote to keys</div>
+                            </div>
+                          </div>
+                          <div class="tr-steps">
+                            <div class="tr-step"><span>01</span><div class="tr-step-title">Consult</div><p>We visit the site and learn what you need.</p></div>
+                            <div class="tr-step"><span>02</span><div class="tr-step-title">Estimate</div><p>A clear, written quote with no surprises.</p></div>
+                            <div class="tr-step"><span>03</span><div class="tr-step-title">Build</div><p>Scheduled work with regular updates.</p></div>
+                            <div class="tr-step"><span>04</span><div class="tr-step-title">Walkthrough</div><p>We review every detail with you before sign-off.</p></div>
+                          </div>
+                        </div>
+                        <div class="tr-cta">
+                          <div>
+                            <div class="tr-cta-title">Ready to start your project?</div>
+                            <p>Book a free on-site estimate with our team.</p>
+                          </div>
+                          <span class="tr-btn tr-btn-dark">Request a quote &rarr;</span>
+                        </div>
+                        <div class="mock-footer tr-footer"><span>&copy; Ironridge Builders</span><span>Fictional design concept by Knutify</span></div>
+                      </div>
+
+                      <div class="mock mock-rest" data-concept-site="restaurant" aria-hidden="true" hidden>
+                        <div class="rs-nav">
+                          <div class="rs-links rs-links-left"><span>Menu</span><span>Wine</span><span>Private dining</span></div>
+                          <div class="rs-logo">Laurel <i>&amp;</i> Ember<small>Kitchen &middot; Wine bar</small></div>
+                          <div class="rs-links rs-links-right"><span class="rs-visit-link">Visit</span><span class="rs-btn rs-btn-outline">Reserve</span></div>
+                          <span class="mock-burger"><i></i><i></i><i></i></span>
+                        </div>
+                        <div class="rs-hero">
+                          <div class="rs-hero-copy">
+                            <p class="rs-eyebrow">Seasonal &middot; Wood-fired &middot; Local</p>
+                            <div class="rs-title">Seasonal cooking,<br><em>wood-fired warmth.</em></div>
+                            <p class="rs-lede">An intimate dining room serving a changing menu of local produce, open-fire cooking, and a thoughtful list of natural wines.</p>
+                            <div class="rs-actions">
+                              <span class="rs-btn rs-btn-solid">Reserve a table</span>
+                              <span class="rs-btn rs-btn-text">View the menu &rarr;</span>
+                            </div>
+                          </div>
+                          <div class="rs-hero-art">
+                            <svg class="rs-plate" viewBox="0 0 400 400">
+                              <circle cx="200" cy="200" r="168" fill="#efe4d3"/>
+                              <circle cx="200" cy="200" r="168" fill="none" stroke="#000" stroke-opacity="0.08" stroke-width="2"/>
+                              <circle cx="200" cy="200" r="126" fill="#f6eee2"/>
+                              <circle cx="200" cy="200" r="126" fill="none" stroke="#c8a36a" stroke-opacity="0.55" stroke-width="1.5"/>
+                              <path d="M112 238c40-30 120-40 190-10" fill="none" stroke="#8a3a2a" stroke-width="18" stroke-linecap="round" opacity="0.75"/>
+                              <path d="M128 196c20-34 120-46 152-16 12 11 10 28-6 36-40 20-120 22-142 6-10-7-10-16-4-26z" fill="#e58f6a"/>
+                              <path d="M160 186c10 10 12 22 8 32M190 180c10 12 12 26 8 38M220 178c10 12 12 26 8 38M250 182c8 10 10 22 6 32" fill="none" stroke="#f4b896" stroke-width="4" stroke-linecap="round"/>
+                              <g fill="#5c7a3a">
+                                <ellipse cx="270" cy="150" rx="16" ry="6" transform="rotate(-30 270 150)"/>
+                                <ellipse cx="290" cy="166" rx="14" ry="5" transform="rotate(20 290 166)"/>
+                                <ellipse cx="254" cy="166" rx="12" ry="5" transform="rotate(60 254 166)"/>
+                              </g>
+                              <g fill="#6f7d3a"><circle cx="150" cy="252" r="5"/><circle cx="168" cy="260" r="4"/><circle cx="236" cy="254" r="5"/><circle cx="252" cy="246" r="4"/></g>
+                              <circle cx="302" cy="232" r="18" fill="#f2d46b"/>
+                              <circle cx="302" cy="232" r="13" fill="none" stroke="#f8e7a5" stroke-width="2"/>
+                            </svg>
+                            <span class="rs-caption"><b>Tonight</b>Wood-fired trout, brown butter &amp; capers</span>
+                          </div>
+                        </div>
+                        <div class="rs-reserve">
+                          <div class="rs-field rs-field-date"><small>Date</small><span>Fri, Nov 14</span></div>
+                          <div class="rs-field"><small>Time</small><span>7:30 PM</span></div>
+                          <div class="rs-field"><small>Guests</small><span>2 guests</span></div>
+                          <span class="rs-btn rs-btn-solid rs-find">Find a table</span>
+                        </div>
+                        <div class="rs-menu">
+                          <div class="rs-menu-head">
+                            <p class="rs-eyebrow rs-eyebrow-center">The menu</p>
+                            <div class="rs-h2">Tonight's dinner</div>
+                            <div class="rs-tabs"><span class="is-active">Dinner</span><span>Wine</span><span>Dessert</span></div>
+                          </div>
+                          <div class="rs-menu-grid">
+                            <div>
+                              <div class="rs-col-title">To start</div>
+                              <div class="rs-item"><div class="rs-item-top"><span class="rs-item-name">Charred leeks</span><span class="rs-dots"></span><span class="rs-price">16</span></div><p>Hazelnut romesco, smoked salt, chive oil</p></div>
+                              <div class="rs-item"><div class="rs-item-top"><span class="rs-item-name">Beet tartare</span><span class="rs-dots"></span><span class="rs-price">18</span></div><p>Horseradish cream, rye crisp, dill</p></div>
+                              <div class="rs-item"><div class="rs-item-top"><span class="rs-item-name">Wood-fired bread</span><span class="rs-dots"></span><span class="rs-price">9</span></div><p>Cultured butter, flaky salt</p></div>
+                            </div>
+                            <div>
+                              <div class="rs-col-title">Mains</div>
+                              <div class="rs-item"><div class="rs-item-top"><span class="rs-item-name">Wood-fired trout</span><span class="rs-dots"></span><span class="rs-price">34</span></div><p>Brown butter, capers, charred lemon</p></div>
+                              <div class="rs-item"><div class="rs-item-top"><span class="rs-item-name">Braised short rib</span><span class="rs-dots"></span><span class="rs-price">42</span></div><p>Parsnip pur&eacute;e, red wine jus, gremolata</p></div>
+                              <div class="rs-item"><div class="rs-item-top"><span class="rs-item-name">Wild mushroom risotto</span><span class="rs-dots"></span><span class="rs-price">28</span></div><p>Aged parmesan, thyme, truffle oil</p></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="rs-visit">
+                          <div class="rs-visit-col"><div class="rs-visit-title">Hours</div><p>Tuesday&ndash;Sunday<br>5:00pm&ndash;11:00pm</p></div>
+                          <div class="rs-visit-col"><div class="rs-visit-title">Find us</div><p>123 Example Street<br>Reservations recommended</p></div>
+                          <div class="rs-visit-col"><div class="rs-visit-title">Private dining</div><p>Gatherings and celebrations in our cellar room.</p></div>
+                        </div>
+                        <div class="mock-footer rs-footer"><span>&copy; Laurel &amp; Ember</span><span>Fictional design concept by Knutify</span></div>
+                      </div>
+
+                      <div class="mock mock-pro" data-concept-site="professional" aria-hidden="true" hidden>
+                        <div class="pr-nav">
+                          <div class="pr-logo">
+                            <svg viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#132034"/><path d="M10 23V9l12 14V9" fill="none" stroke="#f7f4ee" stroke-width="2.4" stroke-linejoin="round"/><circle cx="25" cy="7" r="2.5" fill="#b08d57"/></svg>
+                            <span>Northmark<small>Advisory</small></span>
+                          </div>
+                          <div class="pr-links"><span>Services</span><span>Approach</span><span>Insights</span><span>Contact</span></div>
+                          <span class="pr-btn pr-btn-solid pr-nav-cta">Book a consultation</span>
+                          <span class="mock-burger"><i></i><i></i><i></i></span>
+                        </div>
+                        <div class="pr-hero">
+                          <div class="pr-hero-copy">
+                            <p class="pr-eyebrow">Strategy &middot; Finance &middot; Operations</p>
+                            <div class="pr-title">Clear advice for <em>confident</em> decisions.</div>
+                            <p class="pr-lede">Northmark helps growing businesses plan, invest, and operate with clarity, through practical strategy and financial guidance.</p>
+                            <div class="pr-actions">
+                              <span class="pr-btn pr-btn-solid">Book a consultation</span>
+                              <span class="pr-btn pr-btn-line">Explore services</span>
+                            </div>
+                            <p class="pr-note">Complimentary 30-minute first consultation</p>
+                          </div>
+                          <div class="pr-hero-visual">
+                            <div class="pr-book">
+                              <div class="pr-book-head">
+                                <div>
+                                  <div class="pr-book-title">Book a consultation</div>
+                                  <small>30 min &middot; Video or in person</small>
+                                </div>
+                                <span class="pr-book-icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+                              </div>
+                              <div class="pr-days">
+                                <span>Mon<b>10</b></span><span class="is-active">Tue<b>11</b></span><span>Wed<b>12</b></span><span>Thu<b>13</b></span><span>Fri<b>14</b></span>
+                              </div>
+                              <div class="pr-slots">
+                                <span>9:00</span><span class="is-active">10:30</span><span>1:00</span><span>2:30</span><span>3:45</span><span>4:30</span>
+                              </div>
+                              <span class="pr-btn pr-btn-solid pr-btn-block">Confirm Tue 11, 10:30</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pr-section">
+                          <div class="pr-head">
+                            <div>
+                              <p class="pr-eyebrow">How we help</p>
+                              <div class="pr-h2">Advisory services</div>
+                            </div>
+                            <p>Focused engagements designed around where your business is today and where you want it to go.</p>
+                          </div>
+                          <div class="pr-services">
+                            <div class="pr-service"><span class="pr-num">01</span><div><div class="pr-service-title">Strategy &amp; planning</div><p>Clarify priorities and build a plan your team can act on.</p></div><span class="pr-arrow">&rarr;</span></div>
+                            <div class="pr-service"><span class="pr-num">02</span><div><div class="pr-service-title">Financial advisory</div><p>Budgeting, forecasting, and guidance for major decisions.</p></div><span class="pr-arrow">&rarr;</span></div>
+                            <div class="pr-service"><span class="pr-num">03</span><div><div class="pr-service-title">Operations &amp; growth</div><p>Streamline how work gets done as your business scales.</p></div><span class="pr-arrow">&rarr;</span></div>
+                            <div class="pr-service"><span class="pr-num">04</span><div><div class="pr-service-title">Risk &amp; compliance</div><p>Practical frameworks that protect the business.</p></div><span class="pr-arrow">&rarr;</span></div>
+                          </div>
+                        </div>
+                        <div class="pr-section pr-approach-wrap">
+                          <div class="pr-head">
+                            <div>
+                              <p class="pr-eyebrow">Our approach</p>
+                              <div class="pr-h2">Simple, structured, accountable.</div>
+                            </div>
+                          </div>
+                          <div class="pr-approach">
+                            <div class="pr-card"><div class="pr-card-title">Understand</div><p>We start by listening to your goals, constraints, and context.</p></div>
+                            <div class="pr-card"><div class="pr-card-title">Advise</div><p>Clear recommendations, explained in plain language.</p></div>
+                            <div class="pr-card"><div class="pr-card-title">Implement</div><p>We stay involved to help turn the plan into results.</p></div>
+                          </div>
+                        </div>
+                        <div class="pr-cta">
+                          <div>
+                            <div class="pr-cta-title">Let's talk about what's next.</div>
+                            <p>Book a complimentary consultation with an advisor.</p>
+                          </div>
+                          <span class="pr-btn pr-btn-light">Book a consultation</span>
+                        </div>
+                        <div class="mock-footer pr-footer"><span>&copy; Northmark Advisory</span><span>Fictional design concept by Knutify</span></div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="stage-hint">Scroll inside the preview to explore the full page.</p>
+
+              <div class="concept-info" data-concept-info="trades">
+                <div class="concept-info-main">
+                  <p class="concept-info-kicker">Trades &amp; Construction</p>
+                  <h3>Ironridge Builders</h3>
+                  <p>A bold, industrial site for a general contractor. High-contrast type and safety-yellow accents put the quote request front and centre.</p>
+                </div>
+                <div>
+                  <p class="concept-info-label">Design direction</p>
+                  <dl class="concept-meta">
+                    <div><dt>Type</dt><dd>Oswald + Inter</dd></div>
+                    <div><dt>Palette</dt><dd><span class="concept-swatches"><i style="--swatch: #121212"></i><i style="--swatch: #f5b301"></i><i style="--swatch: #f2efe8"></i></span><span class="visually-hidden">Black, safety yellow, and concrete grey</span></dd></div>
+                    <div><dt>Tone</dt><dd>Bold, industrial, direct</dd></div>
+                  </dl>
+                </div>
+                <div>
+                  <p class="concept-info-label">Designed to include</p>
+                  <ul class="concept-points">
+                    <li>Quote request form in the hero</li>
+                    <li>Phone number and hours in the header</li>
+                    <li>Service grid and four-step process</li>
+                    <li>Stacked, thumb-friendly mobile layout</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="concept-info" data-concept-info="restaurant" hidden>
+                <div class="concept-info-main">
+                  <p class="concept-info-kicker">Restaurant &amp; Hospitality</p>
+                  <h3>Laurel &amp; Ember</h3>
+                  <p>An elegant site for an intimate kitchen and wine bar, with refined serif typography, warm candlelit tones, and reservations one tap away.</p>
+                </div>
+                <div>
+                  <p class="concept-info-label">Design direction</p>
+                  <dl class="concept-meta">
+                    <div><dt>Type</dt><dd>Cormorant Garamond + Inter</dd></div>
+                    <div><dt>Palette</dt><dd><span class="concept-swatches"><i style="--swatch: #17110f"></i><i style="--swatch: #c8a36a"></i><i style="--swatch: #7a2a35"></i><i style="--swatch: #f1e6d6"></i></span><span class="visually-hidden">Espresso, brass, wine, and cream</span></dd></div>
+                    <div><dt>Tone</dt><dd>Warm, refined, inviting</dd></div>
+                  </dl>
+                </div>
+                <div>
+                  <p class="concept-info-label">Designed to include</p>
+                  <ul class="concept-points">
+                    <li>Reservation bar with date, time, and party size</li>
+                    <li>Menu with sections and prices</li>
+                    <li>Hours and location at a glance</li>
+                    <li>Centred navigation that collapses on mobile</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="concept-info" data-concept-info="professional" hidden>
+                <div class="concept-info-main">
+                  <p class="concept-info-kicker">Professional Services</p>
+                  <h3>Northmark Advisory</h3>
+                  <p>A clean, sophisticated site for an advisory firm, designed to build credibility and turn visitors into booked consultations.</p>
+                </div>
+                <div>
+                  <p class="concept-info-label">Design direction</p>
+                  <dl class="concept-meta">
+                    <div><dt>Type</dt><dd>Classic serif + Inter</dd></div>
+                    <div><dt>Palette</dt><dd><span class="concept-swatches"><i style="--swatch: #132034"></i><i style="--swatch: #f7f4ee"></i><i style="--swatch: #1f5247"></i><i style="--swatch: #b08d57"></i></span><span class="visually-hidden">Navy, ivory, forest green, and muted gold</span></dd></div>
+                    <div><dt>Tone</dt><dd>Calm, credible, precise</dd></div>
+                  </dl>
+                </div>
+                <div>
+                  <p class="concept-info-label">Designed to include</p>
+                  <ul class="concept-points">
+                    <li>Consultation booking card in the hero</li>
+                    <li>Clear overview of advisory services</li>
+                    <li>Three-step approach section</li>
+                    <li>Strong consultation call to action</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lab-panel" id="lab-panel-software" role="tabpanel" aria-labelledby="lab-tab-software" hidden>
+          <div class="ops-toolbar">
+            <p class="concept-badge"><span aria-hidden="true"></span>Fictional interactive concept</p>
+            <p class="ops-toolbar-note">Sample data only. Try changing a job's status; everything resets when you reload.</p>
+          </div>
+
+          <div class="ops-window">
+            <div class="ops-window-bar" aria-hidden="true">
+              <span class="device-dots"><i></i><i></i><i></i></span>
+              <span class="device-url">
+                <svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+                <span>ops.ironridge.example</span>
+              </span>
+            </div>
+
+            <div class="ops" role="region" aria-label="Ironridge Operations, a fictional interactive app" data-ops>
+              <div class="ops-side">
+                <p class="ops-brand">
+                  <span class="ops-brand-mark" aria-hidden="true">IR</span>
+                  <span class="ops-brand-text"><b>Ironridge</b><span>Operations</span></span>
+                </p>
+                <nav class="ops-nav" aria-label="Ironridge Operations">
+                  <button class="ops-nav-item" type="button" aria-current="page" data-ops-nav="overview">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>
+                    <span>Overview</span>
+                  </button>
+                  <button class="ops-nav-item" type="button" data-ops-nav="jobs">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M4 12h16"/></svg>
+                    <span>Jobs</span>
+                    <span class="ops-nav-count" data-ops-open-count></span>
+                  </button>
+                </nav>
+                <p class="ops-side-foot">Sample data<br>Week of Nov 2, 2026</p>
+              </div>
+
+              <div class="ops-main">
+                <div class="ops-top">
+                  <div>
+                    <p class="ops-date">Monday, November 2</p>
+                    <h3 class="ops-title" tabindex="-1" data-ops-title>Overview</h3>
+                  </div>
+                  <span class="ops-chip">Sample data</span>
+                </div>
+
+                <div class="ops-view" data-ops-view="overview"></div>
+
+                <div class="ops-view ops-jobs" data-ops-view="jobs" data-mode="list" hidden>
+                  <div class="ops-jobs-pane">
+                    <div class="ops-filters">
+                      <div class="ops-segment" role="group" aria-label="Filter jobs by status" data-ops-filters></div>
+                      <label class="ops-search">
+                        <span class="visually-hidden">Search jobs</span>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></svg>
+                        <input type="search" placeholder="Search jobs, clients, addresses" autocomplete="off" data-ops-search>
+                      </label>
+                    </div>
+                    <ul class="ops-list" role="listbox" aria-label="Jobs" data-ops-list></ul>
+                    <p class="ops-empty" data-ops-empty hidden>No jobs match these filters.</p>
+                  </div>
+                  <div class="ops-detail" data-ops-detail></div>
+                </div>
+              </div>
+
+              <p class="visually-hidden" aria-live="polite" data-ops-live></p>
+            </div>
+          </div>
+
+          <div class="concept-info">
+            <div class="concept-info-main">
+              <p class="concept-info-kicker">Custom Software</p>
+              <h3>Ironridge Operations</h3>
+              <p>A fictional operations dashboard for the same invented contractor as our Ironridge website concept. It shows how a custom internal tool can keep jobs, crews, and schedules in one place.</p>
+            </div>
+            <div>
+              <p class="concept-info-label">How it's built</p>
+              <dl class="concept-meta">
+                <div><dt>Views</dt><dd>Overview and Jobs</dd></div>
+                <div><dt>Data</dt><dd>Local sample data</dd></div>
+                <div><dt>Layout</dt><dd>Desktop to phone</dd></div>
+              </dl>
+            </div>
+            <div>
+              <p class="concept-info-label">Try it</p>
+              <ul class="concept-points">
+                <li>Open a job from the overview</li>
+                <li>Filter and search the job list</li>
+                <li>Change a job's status</li>
+                <li>Watch the overview update</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="lab-panel" id="lab-panel-ai" role="tabpanel" aria-labelledby="lab-tab-ai" hidden>
+          <div class="ops-toolbar">
+            <p class="concept-badge"><span aria-hidden="true"></span>Simulated workflow</p>
+            <p class="ops-toolbar-note">No AI service is connected. Every result is scripted sample output, and nothing is sent.</p>
+          </div>
+
+          <div class="ops-window">
+            <div class="ops-window-bar" aria-hidden="true">
+              <span class="device-dots"><i></i><i></i><i></i></span>
+              <span class="device-url">
+                <svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+                <span>intake.ironridge.example</span>
+              </span>
+            </div>
+
+            <div class="flow" role="region" aria-label="Ironridge enquiry workflow, a simulation" data-flow>
+              <div class="flow-head">
+                <p class="ops-brand">
+                  <span class="ops-brand-mark" aria-hidden="true">IR</span>
+                  <span class="ops-brand-text"><b>Ironridge</b><span>Enquiry workflow</span></span>
+                </p>
+                <span class="flow-sim">Simulation</span>
+              </div>
+
+              <div class="flow-body">
+                <div class="flow-side">
+                  <div class="flow-controls">
+                    <p class="flow-label" id="flow-sample-label">Sample enquiry</p>
+                    <div class="flow-samples" role="group" aria-labelledby="flow-sample-label" data-flow-samples></div>
+                    <div class="flow-actions">
+                      <button class="flow-run" type="button" data-flow-run>Run workflow</button>
+                      <button class="flow-step-button" type="button" data-flow-next>Next step</button>
+                    </div>
+                  </div>
+                  <ol class="flow-steps" aria-label="Workflow steps" data-flow-steps></ol>
+                </div>
+                <div class="flow-output" role="region" aria-label="Step results" tabindex="0" data-flow-output></div>
+              </div>
+
+              <p class="visually-hidden" aria-live="polite" data-flow-live></p>
+            </div>
+          </div>
+
+          <div class="concept-info">
+            <div class="concept-info-main">
+              <p class="concept-info-kicker">AI &amp; Automation</p>
+              <h3>Ironridge enquiry workflow</h3>
+              <p>A simulated intake process for the same invented contractor. A new enquiry is read, organized, and answered in draft, then a person reviews everything before anything goes out.</p>
+            </div>
+            <div>
+              <p class="concept-info-label">How it's built</p>
+              <dl class="concept-meta">
+                <div><dt>Steps</dt><dd>Five, run in order</dd></div>
+                <div><dt>Output</dt><dd>Scripted sample results</dd></div>
+                <div><dt>Final say</dt><dd>A person approves</dd></div>
+              </dl>
+            </div>
+            <div>
+              <p class="concept-info-label">Try it</p>
+              <ul class="concept-points">
+                <li>Pick one of three enquiries</li>
+                <li>Run it, or go one step at a time</li>
+                <li>Open any finished step</li>
+                <li>Edit and approve the reply</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="section contact">
+      <section id="process" class="section process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">How we work</p>
+          <h2 id="process-title">Start with <em>your vision,</em> then build around it.</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline-step">
+            <span class="timeline-index" aria-hidden="true">01</span>
+            <h3>Discovery</h3>
+            <p>We learn your business, goals, users, and current tools, and the problem to solve.</p>
+          </li>
+          <li class="timeline-step">
+            <span class="timeline-index" aria-hidden="true">02</span>
+            <h3>Planning</h3>
+            <p>Scope, features, design direction, and timeline, agreed before work begins.</p>
+          </li>
+          <li class="timeline-step">
+            <span class="timeline-index" aria-hidden="true">03</span>
+            <h3>Development</h3>
+            <p>Built in focused stages, with regular progress you can review and shape.</p>
+          </li>
+          <li class="timeline-step">
+            <span class="timeline-index" aria-hidden="true">04</span>
+            <h3>Launch</h3>
+            <p>Tested across devices and real use cases, then launched with a smooth handover.</p>
+          </li>
+          <li class="timeline-step">
+            <span class="timeline-index" aria-hidden="true">05</span>
+            <h3>Ongoing support</h3>
+            <p>Maintenance, updates, and new features as your business and needs grow.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
         <div class="contact-copy">
-          <p class="eyebrow">Start with the workflow</p>
-          <h2>Tell us what is slowing your operation down.</h2>
+          <p class="eyebrow">Start a project</p>
+          <h2 id="contact-title">Tell us what you want <em>to build.</em></h2>
           <p>
-            Send a quick note about your company, your crew, and the workflow you want to clean up.
-            We can help turn that into a clear first build that fits how your team actually works.
+            Share a few details about your business and your idea, and we'll help turn it into a clear plan.
           </p>
           <div class="trust-list">
-            <span>Built for Canadian small businesses</span>
-            <span>Workflow-first planning</span>
+            <span>Canadian-based team</span>
+            <span>Clear scope before we build</span>
             <span>Direct response from our team</span>
           </div>
+          <p class="contact-direct">Prefer email? <a href="mailto:holmeskohl04@gmail.com">holmeskohl04@gmail.com</a></p>
         </div>
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <label>
-            Name
-            <input name="name" type="text" autocomplete="name" required>
-          </label>
-          <label>
-            Email
-            <input name="email" type="email" autocomplete="email" required>
-          </label>
-          <label>
-            What is the biggest problem in your workflow right now?
-            <textarea name="message" rows="5" required></textarea>
-          </label>
-          <button class="button primary" type="submit">Start a project</button>
+        <!--
+          Contact form endpoint. While the action is a mailto: address, the form opens the
+          visitor's email app with their message filled in, and nothing is posted anywhere.
+          To receive submissions online, create a form at https://formspree.io, then replace
+          the action below with the endpoint it gives you, e.g. https://formspree.io/f/abcdwxyz,
+          and remove enctype="text/plain". See README.md, "Connecting the contact form".
+        -->
+        <form class="contact-form" action="mailto:holmeskohl04@gmail.com" method="post" enctype="text/plain" novalidate data-contact-form>
+          <div class="form-field">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="100" required aria-describedby="contact-name-error">
+            <p class="field-error" id="contact-name-error" hidden></p>
+          </div>
+          <div class="form-field">
+            <label for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" spellcheck="false" required aria-describedby="contact-email-error">
+            <p class="field-error" id="contact-email-error" hidden></p>
+          </div>
+          <div class="form-field">
+            <label for="contact-interest">What can we help with?</label>
+            <select id="contact-interest" name="interest" required aria-describedby="contact-interest-error">
+              <option value="" disabled selected>Choose a service</option>
+              <option>Website</option>
+              <option>Custom software</option>
+              <option>Mobile or desktop app</option>
+              <option>AI &amp; automation</option>
+              <option>Support for an existing system</option>
+              <option>Not sure yet</option>
+            </select>
+            <p class="field-error" id="contact-interest-error" hidden></p>
+          </div>
+          <div class="form-field">
+            <label for="contact-message">Tell us about your project</label>
+            <textarea id="contact-message" name="message" rows="5" minlength="20" maxlength="1500" required aria-describedby="contact-message-hint contact-message-error"></textarea>
+            <p class="field-hint" id="contact-message-hint">A few sentences is plenty: what you need, who it's for, and any timing.</p>
+            <p class="field-error" id="contact-message-error" hidden></p>
+          </div>
+          <div class="form-trap" aria-hidden="true">
+            <label for="contact-website">Leave this field empty</label>
+            <input id="contact-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="form-submit">
+            <button class="button primary" type="submit" data-form-submit>Start a project</button>
+            <p class="form-note" data-form-note>Sends through your email app, addressed to us with your details filled in.</p>
+          </div>
+          <div class="form-status" role="status" aria-live="polite" data-form-status></div>
         </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div>
-        <span>Knutify</span>
-        <p>Practical field operations systems for small businesses that need cleaner scheduling, tracking, inspections, and daily records.</p>
+      <div class="footer-main">
+        <span class="footer-brand">Knutify</span>
+        <p>Canadian technology development: websites, custom software, mobile and desktop apps, AI and automation, and ongoing support.</p>
       </div>
+      <nav class="footer-nav" aria-labelledby="footer-explore">
+        <h2 class="footer-heading" id="footer-explore">Explore</h2>
+        <a href="#build">What we build</a>
+        <a href="#showcase">Concept Lab</a>
+        <a href="#process">How we work</a>
+        <a href="#contact">Start a project</a>
+      </nav>
       <div class="footer-links">
-        <a href="mailto:kholmes@knutify.ca">kholmes@knutify.ca</a>
-        <span>Canada-based service</span>
-        <span>Your process details stay private.</span>
+        <h2 class="footer-heading">Contact</h2>
+        <a href="mailto:holmeskohl04@gmail.com">holmeskohl04@gmail.com</a>
+        <span>Based in Canada</span>
+      </div>
+      <nav class="footer-nav" aria-labelledby="footer-legal">
+        <h2 class="footer-heading" id="footer-legal">Legal</h2>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </nav>
+      <div class="footer-base">
+        <span>&copy; <span data-year>2026</span> Knutify</span>
         <a href="#top">Back to top</a>
       </div>
     </footer>

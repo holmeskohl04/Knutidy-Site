@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page not found | Knutify</title>
+    <meta name="description" content="This page doesn't exist. Head back to the Knutify homepage or get in touch.">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#0d1014">
+    <!-- Served at any missing URL on knutify.ca, so it is self-contained and links from the site root. -->
+    <link rel="icon" href="/assets/knutify-mark.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Inter:wght@400..600&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <style>
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        margin: 0;
+        color: #f3f5f8;
+        background:
+          radial-gradient(ellipse 60% 50% at 70% 20%, rgba(58, 155, 255, 0.1), rgba(58, 155, 255, 0) 70%),
+          linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px) 0 0 / 40px 40px,
+          linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px) 0 0 / 40px 40px,
+          #0d1014;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      a { color: inherit; text-decoration: none; }
+      :focus-visible { outline: 2px solid #3a9bff; outline-offset: 3px; }
+      header, footer { padding: 20px clamp(20px, 5vw, 72px); }
+      .brand { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-family: "Inter Tight", Inter, sans-serif; font-size: 1.3125rem; font-weight: 600; letter-spacing: -0.025em; }
+      .brand svg { width: 22px; height: 26px; }
+      main { align-self: center; padding: 48px clamp(20px, 5vw, 72px) 72px; max-width: 760px; }
+      .code { margin: 0 0 20px; color: #8ec5ff; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; }
+      h1 { margin: 0; font-family: "Inter Tight", Inter, sans-serif; font-size: clamp(2.5rem, 7vw, 4.5rem); font-weight: 600; line-height: 1; letter-spacing: -0.04em; text-wrap: balance; }
+      h1 em { font-family: "Instrument Serif", Georgia, serif; font-size: 1.08em; font-weight: 400; letter-spacing: -0.015em; }
+      p.lede { max-width: 34rem; margin: 24px 0 0; color: #a3adba; font-size: clamp(1.0625rem, 1.4vw, 1.25rem); }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 999px; font-size: 0.9375rem; font-weight: 600; transition: background-color 160ms, border-color 160ms; }
+      .button.primary { border-color: transparent; color: #0b0e12; background: #3a9bff; }
+      .button.primary:hover { background: #63b1ff; }
+      .button:not(.primary):hover { border-color: rgba(255, 255, 255, 0.4); background: rgba(255, 255, 255, 0.04); }
+      ul { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 48px 0 0; padding: 24px 0 0; border-top: 1px solid rgba(255, 255, 255, 0.08); list-style: none; font-size: 0.875rem; }
+      ul a { color: #a3adba; }
+      ul a:hover { color: #fff; }
+      footer { color: #7d8895; font-size: 0.875rem; }
+      @media (prefers-reduced-motion: reduce) { .button { transition: none; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/" aria-label="Knutify home">
+        <svg viewBox="22 18 60 60" aria-hidden="true"><rect x="25" y="20" width="14" height="56" rx="2" fill="#3a9bff"/><path d="M46 46H61L78 76H63L46 46Z" fill="#a4aab0"/><path d="M46 39L63 20H79L61 39H46Z" fill="#3a9bff"/></svg>
+        Knutify
+      </a>
+    </header>
+    <main>
+      <p class="code">Error 404</p>
+      <h1>This page <em>isn't here.</em></h1>
+      <p class="lede">The link may be out of date, or the address may have a typo. Everything Knutify offers is on the homepage.</p>
+      <div class="actions">
+        <a class="button primary" href="/">Go to the homepage</a>
+        <a class="button" href="/#contact">Start a project</a>
+      </div>
+      <ul aria-label="Popular pages">
+        <li><a href="/#build">What we build</a></li>
+        <li><a href="/#showcase">Concept Lab</a></li>
+        <li><a href="/#process">How we work</a></li>
+        <li><a href="mailto:holmeskohl04@gmail.com">holmeskohl04@gmail.com</a></li>
+      </ul>
+    </main>
+    <footer>Knutify, based in Canada</footer>
+  </body>
+</html>

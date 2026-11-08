@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  privacy.html and terms.html are drafts marked noindex. Add them here once they are reviewed and published:
+  <url><loc>https://knutify.ca/privacy.html</loc></url>
+  <url><loc>https://knutify.ca/terms.html</loc></url>
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://knutify.ca/</loc>
+  </url>
+</urlset>
